@@ -12,13 +12,13 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Orbtisub\\Seat\\Cift\\": "src/"
+            "Orbitsub\\Seat\\Cift\\": "src/"
         }
     },
      "extra": {
         "laravel": {
             "providers": [
-                "Orbtisub\\Seat\\Cift\\CiftServiceProvider"
+                "Orbitsub\\Seat\\Cift\\CiftServiceProvider"
             ]
         }
     },
