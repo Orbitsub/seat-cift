@@ -1,5 +1,5 @@
 {
-    "name": "orbtisub/seat-cift",
+    "name": "orbitsub/seat-cift",
     "description": "Module to check ship skills per character",
     "type": "seat-plugin",
     "license": "GPL-2.0-only",
