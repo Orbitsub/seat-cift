@@ -8,10 +8,18 @@ return [
         'route_segment' => 'fitting',
         'icon' => 'fas fa-rocket',
         'entries' => [
+                'fitting' => [
+                'label' => 'fitting::config.menu_fitting',
+                'name' => 'Fittings',
+                'icon' => 'fas fa-shuttle-space',
+                'route_segment' => 'fitting',
+                'route' => 'cryptafitting::view',
+                'permission' => 'fitting.view',
+            ],
             'fitting' => [
                 'label' => 'fitting::config.menu_fitting',
                 'name' => 'Fittings',
-                'icon' => 'fas fa-chart-pie',
+                'icon' => 'fas fa-rocket',
                 'route_segment' => 'fitting',
                 'route' => 'cryptafitting::view',
                 'permission' => 'fitting.view',

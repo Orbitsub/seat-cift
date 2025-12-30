@@ -5,7 +5,8 @@ return [
     'page_description' => 'Information about the plugin',
 
     'functionality_title' => 'Functionality',
-    'functionality_body' => 'This plugin allows for the storing of eve fittings. Fittings can be further organised into doctrines, and reports can be run to see ability to use doctrines.',
+    'functionality_body' => 'This plugin allows for the storing of EVE fittings. Fittings can be further organised into doctrines, and reports can be run to see ability to use doctrines.
+                    Additionally, users can see what ships they can fly based on their current skills.',
 
     'thanks_title' => 'THANK YOU!',
     'thanks_intro' => ' Both <strong>SeAT</strong> and <strong>Seat-Fitting</strong> are community creations designed to
