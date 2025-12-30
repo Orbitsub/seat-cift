@@ -1,11 +1,11 @@
 <?php
 
-namespace orbitsub\Seat\Cift;
+namespace CryptaTech\Seat\Fitting;
 
-use orbitsub\Seat\Cift\Commands\UpgradeFits;
+use CryptaTech\Seat\Fitting\Commands\UpgradeFits;
 use Seat\Services\AbstractSeatPlugin;
 
-class CiftServiceProvider extends AbstractSeatPlugin
+class FittingServiceProvider extends AbstractSeatPlugin
 {
     /**
      * Bootstrap the application services.
@@ -105,7 +105,7 @@ class CiftServiceProvider extends AbstractSeatPlugin
      */
     public function getName(): string
     {
-        return 'CIFT';
+        return 'Fitting';
     }
 
     /**
@@ -115,7 +115,7 @@ class CiftServiceProvider extends AbstractSeatPlugin
      */
     public function getPackageRepositoryUrl(): string
     {
-        return 'https://github.com/orbitsub/seat-cift';
+        return 'https://github.com/eveseat-plugins/seat-fitting';
     }
 
     /**
@@ -125,7 +125,7 @@ class CiftServiceProvider extends AbstractSeatPlugin
      */
     public function getPackagistPackageName(): string
     {
-        return 'seat-cift';
+        return 'seat-fitting';
     }
 
     /**
@@ -135,6 +135,6 @@ class CiftServiceProvider extends AbstractSeatPlugin
      */
     public function getPackagistVendorName(): string
     {
-        return 'orbitsub';
+        return 'cryptatech';
     }
 }
