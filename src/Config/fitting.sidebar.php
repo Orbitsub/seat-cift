@@ -11,7 +11,7 @@ return [
             'fitting' => [
                 'label' => 'fitting::config.menu_fitting',
                 'name' => 'Fittings',
-                'icon' => 'fas fa-shuttle-space',
+                'icon' => 'fas fa-chart-pie',
                 'route_segment' => 'fitting',
                 'route' => 'cryptafitting::view',
                 'permission' => 'fitting.view',
