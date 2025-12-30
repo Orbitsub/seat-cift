@@ -5,7 +5,8 @@ return [
     'page_description' => 'Informations à propos du plugin',
 
     'functionality_title' => 'Fonctionnalité',
-    'functionality_body' => 'Ce plugin permet de stocker les fittings d\'Eve. Les fittings peuvent être organisés en doctrines et des simulations peuvent être exécutées pour vérifier la capacité à utiliser les doctrines.',
+    'functionality_body' => 'Ce plugin permet de stocker les fittings d\'Eve. Les fittings peuvent être organisés en doctrines et des simulations peuvent être exécutées pour vérifier la capacité à utiliser les doctrines.
+                    De plus, les utilisateurs peuvent voir quels vaisseaux ils peuvent piloter en fonction de leurs compétences actuelles',
 
     'thanks_title' => 'MERCI!',
     'thanks_intro' => '<strong>SeAT</strong> et <strong>Seat-Fitting</strong> sont des créations communautaires conçues pour

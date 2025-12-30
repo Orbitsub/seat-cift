@@ -8,13 +8,13 @@ return [
         'route_segment' => 'fitting',
         'icon' => 'fas fa-rocket',
         'entries' => [
-                'fitting' => [
-                'label' => 'fitting::config.menu_fitting',
-                'name' => 'Fittings',
+                'overview' => [
+                'label' => 'fitting::config.menu_overview',
+                'name' => 'Overview',
                 'icon' => 'fas fa-shuttle-space',
                 'route_segment' => 'fitting',
-                'route' => 'cryptafitting::view',
-                'permission' => 'fitting.view',
+                'route' => 'cryptafitting::overview',
+                'permission' => 'fitting.overview',
             ],
             'fitting' => [
                 'label' => 'fitting::config.menu_fitting',

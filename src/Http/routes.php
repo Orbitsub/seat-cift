@@ -35,6 +35,11 @@ Route::group([
             'uses' => 'FittingController@getFittingView',
             'middleware' => 'can:fitting.view',
         ]);
+        Route::get('/overview', [
+            'as' => 'cryptafitting::overview',
+            'uses' => 'FittingController@getOverviewView',
+            'middleware' => 'can:fitting.overview',
+        ]);
         Route::get('/about', [
             'as' => 'cryptafitting::about',
             'uses' => 'FittingController@getAboutView',

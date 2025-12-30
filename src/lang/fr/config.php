@@ -2,11 +2,15 @@
 
 return [
     'menu_title' => 'Doctrines & Fittings',
+    'menu_overview' => 'Overview',
     'menu_fitting' => 'Fittings',
     'menu_doctrines' => 'Doctrines',
     'menu_doctrine_report' => 'Rapport de doctrines',
     'menu_about' => 'A propos',
     'menu_settings' => 'Paramètres',
+
+    'permission_overview_label' => 'Afficher l\'aperçu',
+    'permission_overview_desc' => 'Possibilité de voir la page des vaisseaux pilotables',
 
     'permission_view_fitting_label' => 'Afficher les Fittings',
     'permission_view_fitting_desc' => 'Possibilité de voir la page de fittings',

@@ -295,6 +295,11 @@ class FittingController extends Controller implements CalculateConstants
         return view('fitting::doctrine', compact('doctrine_list', 'doctrine_id'));
     }
 
+    public function getOverviewView()
+    {
+        return view('fitting::overview');
+    }
+
     public function getAboutView()
     {
         return view('fitting::about');

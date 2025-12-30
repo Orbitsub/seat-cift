@@ -7,6 +7,11 @@
  */
 
 return [
+    'overview' => [
+        'label' => 'fitting::config.permission_overview_label',
+        'description' => 'fitting::config.permission_overview_desc',
+        'division' => 'military',
+    ],
     'view' => [
         'label' => 'fitting::config.permission_view_fitting_label',
         'description' => 'fitting::config.permission_view_fitting_desc',
